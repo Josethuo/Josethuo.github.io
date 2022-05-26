@@ -1,0 +1,270 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+
+	background: #1F1C2C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fff, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+	height: 100%;
+	border: 0px solid #fff;
+}
+header{
+	width: 100%;
+	height: 210px;
+	border: 0px solid #fff;
+	
+
+}
+#logo{
+	width: 170px;
+	height: 150px;
+	border: 0px solid #fff;
+	margin: 0px 10px;
+
+}
+#log{
+	width: 120px;
+	height: 120px;
+	margin: 0px 35px;
+
+}
+#letra {
+	border: 0px solid #fff;
+	height: 30px;
+}
+#letra h1{
+	color: #ffF;
+	font-family: 'calibri';
+}
+.barraN{
+	border: 0px solid #fff;
+	background:  #2980B9 ;
+	height: 42px;
+	justify-content: center;
+
+}
+.linkin{
+	margin: 0px 0px ;
+	background: #2980B9;
+  /* background: #9CECFB;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.linkin:hover{
+	margin: 0px 0px ;
+    background: #24BED3;
+
+}
+.uli{
+	border: 0px solid #fff;
+}
+
+.formulario{
+	width: 350px;
+	height: 430px;
+	background: #3E3D4B;
+	margin: 0px 0px;
+	marker-top: 180px;
+	box-shadow: 10px 13px 37px 10px #000;
+	padding: 20px  30px;
+	border-top: 7px solid #06A9F5;
+	color: white;
+	z-index: 99999999;
+	position: fixed;
+}
+#formulario h5{
+	margin: 0;
+	text-align: center;
+	height: 40px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid;
+	font-size: 20px;
+
+}
+#controls {
+	width: 100%;
+	border: 1px solid #11AADC;
+	margin-bottom: 5px;
+	padding: 8px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: 	#FFF;
+
+
+}
+.buttons {
+	width: 100%;
+	height: 40px;
+	background: #017bab;
+	border: none;
+	color: white;
+	margin-bottom: 16px; 
+}
+.buttons:hover{
+	background: #1B0AAD;
+}
+.TITULO{
+	border: 0px solid #ffff;
+	height: 60PX;
+	background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-family: 'candara';
+	font-weight: bolder;
+}
+.p{
+	height: 20px;
+	text-align: center;
+	border-bottom:1px solid ; 
+	margin: 5px 0px;
+
+}
+.a{
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 5px 0px;
+	
+
+}
+.a:hover{
+	text-decoration: underline;
+}
+#tipIdent{
+	width: 100%;
+	border: 1px solid #11AADC;
+	margin-bottom: 5px;
+	padding: 8px 10px;
+	font-size: 14px;
+	
+}
+.productos{
+	border : 0px solid #fff;
+	height: 465px;
+	background: #2980B9;
+	
+}
+.section{
+	border: 0px solid #fff;
+	height: 543px
+}
+.botons{
+	color: #ffff;
+	text-decoration: none;
+}
+.botons:hover{
+	color: #ffff;
+	text-decoration: none;
+}
+.cuerpoC{
+	background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.carrito{
+	color: #000;
+	text-decoration: none;
+
+}
+.carrito:hover{
+	color:#fff;
+	text-decoration: none;
+	
+}
+.carrusel{
+	height: 405px;
+	border: 0px solid #ffff;
+	background: #1F1C2C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fff, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+.containerC{
+	border: 0px solid #ffff ;
+	height: 500px;
+	background: #2980b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.buscador{
+	border : 0px solid #fff;
+	height: 205px;
+	background: #005C97;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	
+
+}
+.buscat:hover{
+	box-shadow: 1px 1px 10px 1px #000;
+
+}
+.buscat{
+	display: 	block;	
+}
+.cartas:hover{
+	box-shadow: 1px 1px 10px 1px #000;
+}
+.bus{
+	border : 0px solid #fff;
+	height: 90px;
+	background: #2980B9;
+}
+.sub{
+	border: 0px solid #fff;
+	height: 60px:;
+}
+
+.botonB:hover{
+  background: 	#28A3B4;
+
+}
+.sectionFO{
+	border :0px solid #ffff;
+
+}
+.social{
+	text-decoration: none;
+
+}
+.social:hover{
+	color: #ffff;
+}
+.sectionti{
+	border : 0px solid #FFF;
+
+}
+.titulofo{
+	color: #fff;
+
+}
+.letrafo{
+	color: #FFf;
+
+}
+.linkine{
+	text-decoration: none;
+	color: #fff;
+}
+.linkine:hover{
+	text-decoration: none;
+	color: #24BED3 ;
+}
+
+footer{
+	background: #17181b;
+	height: 250px;
+
+}
